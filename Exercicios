@@ -1,0 +1,60 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+
+  
+    System.out.println ("Olá mundo");
+
+
+    String nome= "Joao";
+    System.out.println(nome);
+
+    String nome1= "Joao";
+    String nome2= "Lara";
+    
+
+    int idade1= 18;
+      int idade2= 17;
+      System.out.println(idade1+nome1);
+    System.out.println(idade2+nome2);
+
+    int soma1= 18;
+    int soma2=17;
+
+    System.out.println(soma1+soma2);
+
+
+
+    String nome7= "Joao";
+    int idade7= 18;
+    String nome8= "Lara";
+    int idade8= 17;
+    String nome3= "Breno";
+    int idade3= 40;
+    String nome4= "Poliane";
+    int idade4= 38;
+    String nome5= "Edneia";
+    int idade5=63;
+    String nome6= "Mariane";
+    int idade6= 33;
+   int        mediadeidade=idade7+idade8+idade3+idade4+idade5+idade6/6;     
+    System.out.println(mediadeidade);
+
+    double pessoa1= 1.84;
+    double peso1=85;
+    double imc1=peso1/pessoa1;
+    System.out.println(imc1);
+
+
+    double distancia1= 78.7;
+    double distancia2=125.9;
+    double valormediodekm= distancia1+distancia2/2;
+    System.out.println(valormediodekm);
+
+    String cidade1="Sete Lagoas";
+    double distancia3= 608.1;
+    double km1=13.6;
+    double preco1= 6.43;
+    double valoragastar= distancia3*preco1/km1;
+
+     System.out.println(cidade1+ valoragastar);
